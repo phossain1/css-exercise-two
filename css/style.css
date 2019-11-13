@@ -6,7 +6,6 @@ body {
 
 nav {
   background-color: rgba(204,204,204);
-  float: left;
   position: fixed;
   width: 100%;
 }
@@ -20,16 +19,27 @@ nav {
   background-repeat: no-repeat;
 }
 
+.author {
+  margin-top: 20px;
+}
+
+figcaption {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 h1 {
   font-size: 2em;
   line-height: 1.2;
-  color: #000000
+  color: #000000;
+  margin-bottom: 20px;
 }
 
 p {
   font-size: 100%;
   line-height: normal;
-  color: #000000
+  color: #000000;
+  margin-bottom: 20px;
 }
 
 .large-pic {
